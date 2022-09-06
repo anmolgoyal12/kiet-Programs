@@ -1,0 +1,14 @@
+#include <stdio.h>
+
+int main()
+{
+    int a,b,c;
+    //getting two inputs from user
+    printf("Enter a  number:");
+    scanf("%d\n%d",&a,&b);
+    c=a+b;
+    //result of numbers
+    printf("Sum of two numbers: ");
+    printf("%d",c);
+    return 0;
+}
