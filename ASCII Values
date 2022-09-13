@@ -1,0 +1,22 @@
+#include <stdio.h>
+
+int main()
+{
+    char ch,s;
+    printf("Enter a charcater:\n");
+    scanf("%c",&ch);
+    if(ch>=97&&ch<=122)
+    {
+        s=ch-32;
+printf("%c is Upper case character\n",s);
+printf("%d ascii value\n",s);
+
+    }
+    else if(ch>=65&&ch<=90)
+    {
+        s=ch+32;
+        printf("%c is Lower case charater\n",s);
+    printf("%d ascii value \n",s);
+    }   
+return 0;
+}
