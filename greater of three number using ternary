@@ -1,0 +1,24 @@
+
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    int largest,temp;
+    printf("Enter a first number:\n");
+    scanf("%d",&a);
+
+    printf("Enter a second number:\n");
+    scanf("%d",&b);
+    
+    printf("Enter a third number:\n");
+    scanf("%d",&c);
+    largest=a>b ?a:b;
+     temp=c>largest ?c:largest;
+
+
+
+    printf("Greater is %d",temp);
+    return 0;
+}
+
+    
