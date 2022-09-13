@@ -1,0 +1,26 @@
+#include<stdio.h>
+int main()
+{
+    int a,b,c;
+    int largest,temp;
+    printf("Enter a first number:\n");
+    scanf("%d",&a);
+
+    printf("Enter a second number:\n");
+    scanf("%d",&b);
+    
+    printf("Enter a third number:\n");
+    scanf("%d",&c);
+    
+
+
+if(a>b&&a>c)
+printf("a is greter:%d",a);
+else if(b>a&&b>c)
+printf("b is greter:%d",b);
+else 
+printf("c is greater:%d",c);
+
+    // printf("Greater is %d",temp);
+    return 0;
+}
